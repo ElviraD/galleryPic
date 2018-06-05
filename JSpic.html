@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS图片库</title>
+	<link rel="stylesheet" type="text/css" href="CSS/layout.css">
+</head>
+<body>
+	<!-- <a href="http://www.baidu.com" onclick="return false;">click</a> -->
+	<h2>我喜欢的古风歌手</h2>
+	<ul id="imageGallery">
+		<!-- <li><a href="images/1.jpg" title="慕寒" onclick="return showPic(this)?false:true;" >慕寒</a></li>
+		<li><a href="images/2.jpg" title="东篱" onclick="return showPic(this)?false:true;">东篱</a></li>
+		<li><a href="images/3.jpg" title="萧忆情" onclick="return showPic(this)?false:true;">萧忆情</a></li>
+		<li><a href="images/4.jpg" title="西瓜Jun" onclick="return showPic(this)?false:true;">西瓜Jun</a></li> -->
+		<!-- <li><a href="images/1.jpg" title="慕寒">慕寒</a></li>
+		<li><a href="images/2.jpg" title="东篱">东篱</a></li>
+		<li><a href="images/3.jpg" title="萧忆情">萧忆情</a></li>
+		<li><a href="images/4.jpg" title="西瓜Jun">西瓜Jun</a></li> -->
+		<li><a href="images/1.jpg" title="慕寒"><img src="images/1.jpg" alt="慕寒" style="width:50px;height: 50px;"></a></li>
+		<li><a href="images/2.jpg" title="东篱"><img src="images/2.jpg" alt="东篱" style="width:50px;height: 50px;"></a></li>
+		<li><a href="images/3.jpg" title="萧忆情"><img src="images/3.jpg" alt="萧忆情" style="width:50px;height: 50px;"></a></li>
+		<li><a href="images/4.jpg" title="西瓜Jun"><img src="images/4.jpg" alt="西瓜Jun" style="width:50px;height: 50px;"></a></li>
+	</ul>
+	<!-- <img src="images/placeholder.jpg" alt="showpic" id="placeholder" style="width: 300px;height: 300px;">
+	<p id="decription">选择</p> -->
+	<script type="text/javascript" src="Scripts/showPic.js"></script>
+	<!-- <script type="text/javascript">
+		function showPic(whichpic) {
+			var source = whichpic.getAttribute("href");
+			var text = whichpic.getAttribute("title");
+			var placeholder = document.getElementById("placeholder");
+			var decription = document.getElementById("decription");
+			placeholder.setAttribute("src",source);
+			decription.firstChild.nodeValue = text;
+		}
+	</script> -->
+</body>
+</html>
